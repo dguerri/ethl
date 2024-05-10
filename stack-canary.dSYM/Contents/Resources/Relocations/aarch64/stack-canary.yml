@@ -1,8 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     stack-canary
-relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _fun1, symObjAddr: 0x0, symBinAddr: 0x100003EC0, symSize: 0x6C }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _fun1, symObjAddr: 0x0, symBinAddr: 0x100003EC0, symSize: 0x6C }
-  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x6C, symBinAddr: 0x100003F2C, symSize: 0x50 }
-...
