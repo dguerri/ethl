@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #8B0000, #a83232);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  margin-left: 20px;
+}
+
+.dropbtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 140px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  color: #8B0000;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background: #f4f4f4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Blog Card Styles */
+.blog-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  width: 75%;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+  transform: scale(1.02);
+}
+
+.blog-card .meta {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.blog-card .photo {
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.details {
+  list-style: none;
+  padding: 0;
+}
+
+.details li {
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.description {
+  padding: 20px;
+}
+
+.description h1 {
+  color: #8B0000;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.read-more a {
+  display: inline-block;
+  padding: 12px;
+  background: linear-gradient(135deg, #8B0000, #a83232);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.read-more a:hover {
+  background: linear-gradient(135deg, #a83232, #8B0000);
+}

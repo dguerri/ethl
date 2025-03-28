@@ -1,29 +1,25 @@
 # What is this?
 
-This is a collection of simple programs and exploits to demostrate some stack-based buffer overflow techniques.
+This is a collection of simple demos, programs and exploits to demonstrate exploitation techniques.
 
 ***Note that if you haven't attended the Ethical Hacking Lab classes, this stuff probably won't make much sense :-)***
 
-# How to use it?
+# License
 
-Clone the repo
+## The content of this repo, unless otherwise specified in some subdirectory, is released under
 
-```sh
-git clone https://github.com/dguerri/ethl.git
-```
+Creative Commons Attribution 4.0 International Public License
 
-Cd into it
+By exercising the Licensed Rights (defined below), You accept and agree to be bound by the terms and conditions of this Creative Commons Attribution 4.0 International Public License ("Public License").
 
-```sh
-cd ethl
-```
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+for any purpose, even commercially.
 
-Make!
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
-```sh
-make install
-```
+No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-The makefile requires the user to be in the sudoers because some executables will need to have the setuid bit set.
-
-After building the binaries, you can try the exploits in the `exploits` directory.
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
